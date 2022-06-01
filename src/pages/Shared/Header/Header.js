@@ -26,16 +26,16 @@ const Header = () => {
                 </div>
                 <div className="headerIcons">
                     <div className="headerIconItem">
-                        <BsFillPersonFill />
+                        <BsFillPersonFill className="headerIcon" />
                         <span className="headerIconBadge">1</span>
                     </div>
                     <div className="headerIconItem">
-                        <BsFillChatLeftTextFill />
+                        <BsFillChatLeftTextFill className="headerIcon" />
                         <span className="headerIconBadge">2</span>
                     </div>
                     <div className="headerIconItem">
-                        <IoMdNotifications />
-                        <span className="headerIconBadge">1</span>
+                        <IoMdNotifications className="headerIcon" />
+                        <span className="headerIconBadge">15</span>
                     </div>
                 </div>
                 <img src="/assets/profile/6.jpg" alt="" className="headerImage" />
