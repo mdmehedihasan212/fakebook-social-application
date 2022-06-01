@@ -1,0 +1,26 @@
+.headerContainer {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.headerLeft {
+    flex: 3;
+}
+
+.headerCenter {
+    flex: 5;
+}
+
+.headerRight {
+    flex: 4;
+}
+
+.headerImage {
+    height: 32px;
+    width: 32px;
+}
