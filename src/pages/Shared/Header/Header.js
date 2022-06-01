@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { BsSearch } from 'react-icons/bs';
 import { BsFillPersonFill } from 'react-icons/bs';
-import { BsFillChatLeftTextFill } from 'react-icons/bs';
+import { BsFillChatDotsFill } from 'react-icons/bs';
 import { IoMdNotifications } from 'react-icons/io';
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
                         <span className="headerIconBadge">1</span>
                     </div>
                     <div className="headerIconItem">
-                        <BsFillChatLeftTextFill className="headerIcon" />
+                        <BsFillChatDotsFill className="headerIcon" />
                         <span className="headerIconBadge">2</span>
                     </div>
                     <div className="headerIconItem">
