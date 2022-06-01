@@ -84,6 +84,34 @@ const SideBar = () => {
                         </span>
                     </li>
                 </ul>
+                <div className="sideBarButton">Show More</div>
+                <hr className='sideBarHr' />
+                <ul className="sideBarFriendList">
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                    <li className="sideBarFriend">
+                        <img src="/assets/aditional/1.jpg" alt="" className="sideBarFriendImg" />
+                        <span className="sideBarFriendName">Md Monir Hossain</span>
+                    </li>
+                </ul>
             </div>
         </div>
     );
