@@ -8,6 +8,39 @@
     top: 0;
 }
 
+.logo {
+    font-size: 24px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchBar {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.searchInput {
+    border: none;
+    padding: 3px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.searchInput:hover {
+    outline: none;
+}
+
 .headerLeft {
     flex: 3;
 }
@@ -18,6 +51,36 @@
 
 .headerRight {
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.headerLink {
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.headerIcons {
+    display: flex;
+}
+
+.headerIconItem {
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.headerIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
 }
 
 .headerImage {
