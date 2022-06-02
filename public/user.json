@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/nBGSgDV/1.jpg",
+        "name": "Bil gatde"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/cL9q4dQ/2.jpg",
+        "name": "Stev Jobs"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/9wr60nk/3.jpg",
+        "name": "Jefh Bezej"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/dWM5Dck/4.jpg",
+        "name": "Mark Jukerburge"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/J2PjdzW/5.jpg",
+        "name": "Elon Musk"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/gDw3RBk/6.jpg",
+        "name": "Waren Buffet"
+    }
+]

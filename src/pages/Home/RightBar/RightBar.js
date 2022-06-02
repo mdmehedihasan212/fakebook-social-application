@@ -5,7 +5,8 @@ const RightBar = () => {
     return (
         <div className='rightBar'>
             <div className="rightBarWrapper">
-                <img src="/assets/post/6.jpg" alt="" className="rightBarAdImg" />
+                <h4>Ads</h4>
+                <img src="/assets/ads/1.jpg" alt="" className="rightBarAdImg" />
                 <div className="BirthdayContainer">
                     <h4>Birthdays</h4>
                     <div className="birthdayContent">

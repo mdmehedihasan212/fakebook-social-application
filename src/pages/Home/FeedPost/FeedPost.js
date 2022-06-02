@@ -2,7 +2,9 @@ import React from 'react';
 import './FeedPost.css';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 
-const FeedPost = () => {
+const FeedPost = ({ post }) => {
+    console.log(post);
+
     return (
         <div className="post">
             <div className="postWrapper">
