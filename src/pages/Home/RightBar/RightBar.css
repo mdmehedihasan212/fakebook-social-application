@@ -50,3 +50,45 @@
     margin: 0;
     list-style: none;
 }
+
+/* profile section styles */
+.profileUserInfo {
+    margin-bottom: 100px;
+}
+
+.profileInfoItem {
+    margin-bottom: 10px;
+}
+
+.profileFollowings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.profileFollowing {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileInfoKey {
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.profileInfoValue {
+    font-weight: lighter;
+}
+
+.profileFollowingImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.profileFollowingName {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0;
+}

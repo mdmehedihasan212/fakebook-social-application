@@ -45,7 +45,7 @@ const RightBar = ({ profile }) => {
                         <span className="profileInfoValue">Rupatali</span>
                     </div>
                     <div className="profileInfoItem">
-                        <span className="profileInfoKey">Relation:</span>
+                        <span className="profileInfoKey">Relationship:</span>
                         <span className="profileInfoValue">Marit</span>
                     </div>
                     <h4 className="profileBarFriends">All Friends</h4>
