@@ -1,4 +1,5 @@
 import React from 'react';
+import FeedPost from '../FeedPost/FeedPost';
 import FeedShare from '../FeedShare/FeedShare';
 import './Feed.css';
 
@@ -7,6 +8,7 @@ const Feed = () => {
         <div className='feed'>
             <div className="feedWrapper">
                 <FeedShare></FeedShare>
+                <FeedPost></FeedPost>
             </div>
         </div>
     );
