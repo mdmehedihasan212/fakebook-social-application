@@ -2,7 +2,9 @@
     {
         "id": 1,
         "image": "    https://i.ibb.co/dDZJzb4/1.jpg",
+        "name": "Bil gatde",
         "date": "5 minute ago",
+        "description": "Love you parents",
         "userId": 1,
         "like": 32,
         "comment": 2,
@@ -11,7 +13,9 @@
     {
         "id": 2,
         "image": "https://i.ibb.co/mbHDKhW/2.jpg",
+        "name": "Stev Jobs",
         "date": "2 minute ago",
+        "description": "Love you parents",
         "userId": 2,
         "like": 5,
         "comment": 1,
@@ -20,7 +24,9 @@
     {
         "id": 3,
         "image": "https://i.ibb.co/0J2bb5t/3.jpg",
+        "name": "Jefh Bezej",
         "date": "1 minute ago",
+        "description": "Love you parents",
         "userId": 3,
         "like": 6,
         "comment": 3,
@@ -29,7 +35,9 @@
     {
         "id": 4,
         "image": "https://i.ibb.co/pnctvbL/4.jpg",
+        "name": "Mark Jukerburge",
         "date": "3 minute ago",
+        "description": "Love you parents",
         "userId": 4,
         "like": 8,
         "comment": 1,
@@ -38,7 +46,9 @@
     {
         "id": 5,
         "image": "https://i.ibb.co/qxsr7nt/5.jpg",
+        "name": "Elon Musk",
         "date": "4 minute ago",
+        "description": "Love you parents",
         "userId": 5,
         "like": 10,
         "comment": 4,
@@ -47,7 +57,9 @@
     {
         "id": 6,
         "image": "https://i.ibb.co/GHFrM4S/6.jpg",
+        "name": "Waren Buffet",
         "date": "2 minute ago",
+        "description": "Love you parents",
         "userId": 6,
         "like": 3,
         "comment": 1,
