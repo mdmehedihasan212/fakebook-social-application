@@ -38,7 +38,7 @@ const Header = () => {
                         <span className="headerIconBadge">15</span>
                     </div>
                 </div>
-                <img src="/assets/profile/6.jpg" alt="" className="headerImage" />
+                <img src="/assets/profile/6.jpg" alt="img" className="headerImage" />
             </div>
         </div>
     );

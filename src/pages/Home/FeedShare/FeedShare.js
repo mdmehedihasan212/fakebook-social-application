@@ -10,7 +10,7 @@ const FeedShare = () => {
         <div className="share">
             <div className="shareWrapper">
                 <div className="shareTop">
-                    <img src='/assets/profile/1.jpg' alt="" className="shareProfileImage" />
+                    <img src='/assets/profile/1.jpg' alt="img" className="shareProfileImage" />
                     <input placeholder="What's is your mind?" className="shareInput" />
                 </div>
                 <hr className='shareHr' />

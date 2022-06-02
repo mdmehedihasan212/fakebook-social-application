@@ -88,27 +88,27 @@ const SideBar = () => {
                 <hr className='sideBarHr' />
                 <ul className="sideBarFriendList">
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/1.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/1.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/2.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/2.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/3.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/3.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/4.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/4.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/5.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/5.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                     <li className="sideBarFriend">
-                        <img src="/assets/profile/6.jpg" alt="" className="sideBarFriendImg" />
+                        <img src="/assets/profile/6.jpg" alt="img" className="sideBarFriendImg" />
                         <span className="sideBarFriendName">Md Monir Hossain</span>
                     </li>
                 </ul>

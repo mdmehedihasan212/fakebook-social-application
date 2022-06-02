@@ -1,6 +1,7 @@
 .rightBar {
     flex: 3;
     cursor: pointer;
+    overflow-x: scroll;
 }
 
 .rightBarWrapper {
