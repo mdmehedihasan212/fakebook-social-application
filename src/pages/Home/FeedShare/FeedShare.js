@@ -17,25 +17,25 @@ const FeedShare = () => {
                 <div className="shareBottom">
                     <div className="shareOptions">
                         <div className="shareOption">
-                            <MdPermMedia className="shareIcon" />
+                            <MdPermMedia className="shareIcon" style={{ color: 'green' }} />
                             <span className="shareOptionText">
                                 Photo or Video
                             </span>
                         </div>
                         <div className="shareOption">
-                            <AiTwotoneTags className="shareIcon" />
+                            <AiTwotoneTags className="shareIcon" style={{ color: 'green' }} />
                             <span className="shareOptionText">
                                 Tags
                             </span>
                         </div>
                         <div className="shareOption">
-                            <MdLocationOn className="shareIcon" />
+                            <MdLocationOn className="shareIcon" style={{ color: 'green' }} />
                             <span className="shareOptionText">
                                 Location
                             </span>
                         </div>
                         <div className="shareOption">
-                            <BsFillEmojiSmileFill className="shareIcon" />
+                            <BsFillEmojiSmileFill className="shareIcon" style={{ color: 'green' }} />
                             <span className="shareOptionText">
                                 feelings
                             </span>

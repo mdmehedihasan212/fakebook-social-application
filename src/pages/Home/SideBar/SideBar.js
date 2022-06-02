@@ -22,67 +22,67 @@ const SideBar = () => {
             <div className="sideBarWhapper">
                 <ul className="sideBarList">
                     <li className="sideBarItem">
-                        <MdOutlineRssFeed className='sideBarIcon' />
+                        <MdOutlineRssFeed className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Feed
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <FaUserFriends className='sideBarIcon' />
+                        <FaUserFriends className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Friends
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdGroups className='sideBarIcon' />
+                        <MdGroups className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Groups
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsFillChatDotsFill className='sideBarIcon' />
+                        <BsFillChatDotsFill className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Chats
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <RiMovieFill className='sideBarIcon' />
+                        <RiMovieFill className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Watch
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsStopwatch className='sideBarIcon' />
+                        <BsStopwatch className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Memories
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <AiFillFlag className='sideBarIcon' />
+                        <AiFillFlag className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Pages
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdOutlineEmojiEvents className='sideBarIcon' />
+                        <MdOutlineEmojiEvents className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Events
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsBag className='sideBarIcon' />
+                        <BsBag className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Jobs
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdBloodtype className='sideBarIcon' />
+                        <MdBloodtype className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Blood Donation
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <FaClinicMedical className='sideBarIcon' />
+                        <FaClinicMedical className='sideBarIcon' style={{ color: 'blue' }} />
                         <span className="sideBarIconText">
                             Covid-19 Center
                         </span>

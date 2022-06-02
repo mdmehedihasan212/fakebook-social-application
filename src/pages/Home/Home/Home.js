@@ -7,14 +7,14 @@ import SideBar from '../SideBar/SideBar';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header></Header>
             <div className="homeContainer">
                 <SideBar></SideBar>
                 <Feed></Feed>
                 <RightBar></RightBar>
             </div>
-        </div>
+        </>
     );
 };
 
