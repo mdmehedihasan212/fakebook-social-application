@@ -73,5 +73,5 @@
 
 .postComment {
     font-size: 15px;
-    border-bottom: 1px dashed gray;
+    margin: 0 5px;
 }

@@ -26,10 +26,11 @@ const FeedPost = () => {
                     <div className="postLeft">
                         <img src="/assets/icon/thums.ico" alt="" className="postLikeIcon" />
                         <img src="/assets/icon/heart.ico" alt="" className="postLikeIcon" />
-                        <span className="postLikeCount">32 people liked it</span>
+                        <span className="postLikeCount">32 people like</span>
                     </div>
                     <div className="postRight">
-                        <span className="postComment">9 people comments</span>
+                        <span className="postComment">9 Comments</span>
+                        <span className="postComment">12 Share</span>
                     </div>
                 </div>
             </div>
