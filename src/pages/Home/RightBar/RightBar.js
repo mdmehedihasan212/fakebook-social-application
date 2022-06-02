@@ -9,6 +9,8 @@ const RightBar = ({ profile }) => {
     const HomeRightBar = () => {
         return (
             <div className="BirthdayContainer">
+                <h4>Ads</h4>
+                <img src="/assets/ads/1.jpg" alt="img" className="rightBarAdImg" />
                 <h4>Birthdays</h4>
                 <div className="birthdayContent">
                     <img src="/assets/icon/gift.ico" alt="img" className="birthdayImg" />
@@ -25,8 +27,6 @@ const RightBar = ({ profile }) => {
                         ></OnlineFriend>)
                     }
                 </ul>
-                <h4>Ads</h4>
-                <img src="/assets/ads/1.jpg" alt="img" className="rightBarAdImg" />
             </div>
         )
     };
@@ -96,7 +96,7 @@ const RightBar = ({ profile }) => {
         <div className='rightBar'>
             <div className="rightBarWrapper">
 
-                <ProfileRightBar />
+                {profile ? <ProfileRightBar /> : <HomeRightBar />}
             </div>
         </div>
     );
