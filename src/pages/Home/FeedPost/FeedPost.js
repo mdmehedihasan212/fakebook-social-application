@@ -16,8 +16,22 @@ const FeedPost = () => {
                         <BsThreeDotsVertical />
                     </div>
                 </div>
-                <div className="postCenter"></div>
-                <div className="postBottom"></div>
+                <div className="postCenter">
+                    <span className="userPostText">
+                        Hey! It's my first post
+                    </span>
+                    <img src="/assets/post/1.jpg" alt="" className="userPostImg" />
+                </div>
+                <div className="postBottom">
+                    <div className="postLeft">
+                        <img src="/assets/icon/thums.ico" alt="" className="postLikeIcon" />
+                        <img src="/assets/icon/heart.ico" alt="" className="postLikeIcon" />
+                        <span className="postLikeCount">32 people liked it</span>
+                    </div>
+                    <div className="postRight">
+                        <span className="postComment">9 people comments</span>
+                    </div>
+                </div>
             </div>
         </div>
     );

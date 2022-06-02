@@ -9,6 +9,11 @@ const Feed = () => {
             <div className="feedWrapper">
                 <FeedShare></FeedShare>
                 <FeedPost></FeedPost>
+                <FeedPost></FeedPost>
+                <FeedPost></FeedPost>
+                <FeedPost></FeedPost>
+                <FeedPost></FeedPost>
+                <FeedPost></FeedPost>
             </div>
         </div>
     );

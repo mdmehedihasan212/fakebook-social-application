@@ -27,3 +27,51 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.postUserName {
+    font-size: 15px;
+    margin: 0 10px;
+    font-weight: 500px;
+}
+
+.postTime {
+    font-size: 12px;
+}
+
+.postCenter {
+    margin: 20px 0;
+}
+
+.userPostImg {
+    width: 100%;
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.postLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postLikeIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.postLikeCount {
+    font-size: 15px;
+}
+
+.postComment {
+    font-size: 15px;
+    border-bottom: 1px dashed gray;
+}
