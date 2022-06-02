@@ -5,6 +5,7 @@ const RightBar = () => {
     return (
         <div className='rightBar'>
             <div className="rightBarWrapper">
+                <img src="/assets/post/6.jpg" alt="" className="rightBarAdImg" />
                 <div className="BirthdayContainer">
                     <h4>Birthdays</h4>
                     <div className="birthdayContent">
@@ -13,14 +14,49 @@ const RightBar = () => {
                             <strong>Monir Hossain</strong> and <strong>5 others</strong> have birthdays today.
                         </span>
                     </div>
-                    <img src="/assets/post/1.jpg" alt="" className="rightBarAdImg" />
                     <h4 className="onlineFriendTitle">Online Friends</h4>
                     <ul className="onlineFriendsList">
                         <li className="onlineFriendItem">
                             <div className="friendsImgContainer">
                                 <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
-                                <span className="onlineBadge">1</span>
+                                <span className="onlineBadge"></span>
                             </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
+                        </li>
+                        <li className="onlineFriendItem">
+                            <div className="friendsImgContainer">
+                                <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
+                                <span className="onlineBadge"></span>
+                            </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
+                        </li>
+                        <li className="onlineFriendItem">
+                            <div className="friendsImgContainer">
+                                <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
+                                <span className="onlineBadge"></span>
+                            </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
+                        </li>
+                        <li className="onlineFriendItem">
+                            <div className="friendsImgContainer">
+                                <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
+                                <span className="onlineBadge"></span>
+                            </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
+                        </li>
+                        <li className="onlineFriendItem">
+                            <div className="friendsImgContainer">
+                                <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
+                                <span className="onlineBadge"></span>
+                            </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
+                        </li>
+                        <li className="onlineFriendItem">
+                            <div className="friendsImgContainer">
+                                <img src="/assets/profile/1.jpg" alt="" className="friendsProfileImg" />
+                                <span className="onlineBadge"></span>
+                            </div>
+                            <span className="onlineFriendName">Monir Hossain</span>
                         </li>
                     </ul>
                 </div>
