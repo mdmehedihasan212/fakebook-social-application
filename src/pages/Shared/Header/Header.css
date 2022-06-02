@@ -37,7 +37,7 @@
     margin-left: 10px;
 }
 
-.searchInput:hover {
+.searchInput:focus {
     outline: none;
 }
 
