@@ -7,7 +7,7 @@ const Login = () => {
             <div className="loginWrapper">
                 <div className="loginRight">
                     <h4 className="loginLogo">Fakebook</h4>
-                    <span className="loginDesc">Continue with login page</span>
+                    <span className="loginDesc">Continue with login for connect friends</span>
                 </div>
                 <div className="loginLeft">
                     <div className="loginBox">
@@ -15,7 +15,7 @@ const Login = () => {
                         <input placeholder="Password" className="loginInput" />
                         <button className="loginButton">Log In</button>
                         <span className="forgetPassword">Forget Password?</span>
-                        <button className="loginNewRegister">Create a New Register</button>
+                        <button className="loginRegisterButton">Create a New Register</button>
                     </div>
                 </div>
             </div>
