@@ -6,7 +6,7 @@
         "date": "5 minute ago",
         "description": "Love you parents",
         "userId": 1,
-        "like": 32,
+        "likes": 32,
         "comment": 2,
         "share": 1
     },
@@ -17,7 +17,7 @@
         "date": "2 minute ago",
         "description": "Love you parents",
         "userId": 2,
-        "like": 5,
+        "likes": 5,
         "comment": 1,
         "share": 3
     },
@@ -28,7 +28,7 @@
         "date": "1 minute ago",
         "description": "Love you parents",
         "userId": 3,
-        "like": 6,
+        "likes": 6,
         "comment": 3,
         "share": 0
     },
@@ -39,7 +39,7 @@
         "date": "3 minute ago",
         "description": "Love you parents",
         "userId": 4,
-        "like": 8,
+        "likes": 8,
         "comment": 1,
         "share": 1
     },
@@ -50,7 +50,7 @@
         "date": "4 minute ago",
         "description": "Love you parents",
         "userId": 5,
-        "like": 10,
+        "likes": 10,
         "comment": 4,
         "share": 3
     },
@@ -61,7 +61,7 @@
         "date": "2 minute ago",
         "description": "Love you parents",
         "userId": 6,
-        "like": 3,
+        "likes": 3,
         "comment": 1,
         "share": 1
     }

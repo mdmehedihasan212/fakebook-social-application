@@ -1,12 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './FeedPost.css';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import useUsers from '../../../hooks/useUsers';
 
 const FeedPost = ({ post }) => {
-    const { userId, name, description, comment, date, image, like, share } = post;
-    const [users] = useUsers();
+    const { userId, name, description, comment, date, image, likes, share } = post;
 
+    const [users] = useUsers();
+    const [like, setLike] = useState(likes);
+    const [isLike, setIsLike] = useState(false);
+
+    const handleClick = () => {
+        setLike(isLike ? like - 1 : like + 1)
+        setIsLike(!isLike)
+    }
 
     return (
         <div className="post">
@@ -29,8 +36,8 @@ const FeedPost = ({ post }) => {
                 </div>
                 <div className="postBottom">
                     <div className="postLeft">
-                        <img src="/assets/icon/thums.ico" alt="img" className="postLikeIcon" />
-                        <img src="/assets/icon/heart.ico" alt="img" className="postLikeIcon" />
+                        <img src="/assets/icon/thums.ico" onClick={handleClick} alt="img" className="postLikeIcon" />
+                        <img src="/assets/icon/heart.ico" onClick={handleClick} alt="img" className="postLikeIcon" />
                         <span className="postLikeCount">{like} people like</span>
                     </div>
                     <div className="postRight">

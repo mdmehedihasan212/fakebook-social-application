@@ -11,8 +11,12 @@ import { MdBloodtype } from 'react-icons/md';
 import { FaClinicMedical } from 'react-icons/fa';
 import { MdOutlineEmojiEvents } from 'react-icons/md';
 import { BsBag } from 'react-icons/bs';
+import useUsers from '../../../hooks/useUsers';
+import CloseFriend from '../CloseFriend/CloseFriend';
 
 const SideBar = () => {
+    const [users] = useUsers()
+
     return (
         <div className='sideBar'>
             <div className="sideBarWhapper">
@@ -87,30 +91,13 @@ const SideBar = () => {
                 <div className="sideBarButton">Show More</div>
                 <hr className='sideBarHr' />
                 <ul className="sideBarFriendList">
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/1.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/2.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/3.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/4.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/5.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
-                    <li className="sideBarFriend">
-                        <img src="/assets/profile/6.jpg" alt="img" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">Md Monir Hossain</span>
-                    </li>
+
+                    {
+                        users.map(user => <CloseFriend
+                            key={user.id}
+                            user={user}
+                        ></CloseFriend>)
+                    }
                 </ul>
             </div>
         </div>
