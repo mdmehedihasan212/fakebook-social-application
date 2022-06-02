@@ -24,15 +24,71 @@ const RightBar = ({ profile }) => {
                             user={user}
                         ></OnlineFriend>)
                     }
-
                 </ul>
+                <h4>Ads</h4>
+                <img src="/assets/ads/1.jpg" alt="img" className="rightBarAdImg" />
             </div>
         )
     };
 
     const ProfileRightBar = () => {
         return (
-            <h4>Hey bro how are you?</h4>
+            <>
+                <h4 className="profileBarTitle">Profile Information</h4>
+                <div className="profileUserInfo">
+                    <div className="profileInfoItem">
+                        <span className="profileInfoKey">City:</span>
+                        <span className="profileInfoValue">Barishal</span>
+                    </div>
+                    <div className="profileInfoItem">
+                        <span className="profileInfoKey">From:</span>
+                        <span className="profileInfoValue">Rupatali</span>
+                    </div>
+                    <div className="profileInfoItem">
+                        <span className="profileInfoKey">Relation:</span>
+                        <span className="profileInfoValue">Marit</span>
+                    </div>
+                    <h4 className="profileBarFriends">All Friends</h4>
+                    <div className="profileFollowings">
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/1.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/2.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/3.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/4.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/5.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                        <div className="profileFollowing">
+                            <img src="/assets/profile/6.jpg" alt="" className="profileFollowingImg" />
+                            <span className="profileFollowingName">
+                                Mark Jukarburge
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </>
         )
     }
 
@@ -40,9 +96,7 @@ const RightBar = ({ profile }) => {
         <div className='rightBar'>
             <div className="rightBarWrapper">
 
-
-                <h4>Ads</h4>
-                <img src="/assets/ads/1.jpg" alt="img" className="rightBarAdImg" />
+                <ProfileRightBar />
             </div>
         </div>
     );
