@@ -11,8 +11,10 @@ import { MdBloodtype } from 'react-icons/md';
 import { FaClinicMedical } from 'react-icons/fa';
 import { MdOutlineEmojiEvents } from 'react-icons/md';
 import { BsBag } from 'react-icons/bs';
+import { AiOutlineLogout } from 'react-icons/ai';
 import useUsers from '../../../hooks/useUsers';
 import CloseFriend from '../CloseFriend/CloseFriend';
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
     const [users] = useUsers()
@@ -22,70 +24,76 @@ const SideBar = () => {
             <div className="sideBarWhapper">
                 <ul className="sideBarList">
                     <li className="sideBarItem">
-                        <MdOutlineRssFeed className='sideBarIcon' style={{ color: 'blue' }} />
+                        <MdOutlineRssFeed className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Feed
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <FaUserFriends className='sideBarIcon' style={{ color: 'blue' }} />
+                        <FaUserFriends className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Friends
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdGroups className='sideBarIcon' style={{ color: 'blue' }} />
+                        <MdGroups className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Groups
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsFillChatDotsFill className='sideBarIcon' style={{ color: 'blue' }} />
+                        <BsFillChatDotsFill className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Chats
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <RiMovieFill className='sideBarIcon' style={{ color: 'blue' }} />
+                        <RiMovieFill className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Watch
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsStopwatch className='sideBarIcon' style={{ color: 'blue' }} />
+                        <BsStopwatch className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Memories
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <AiFillFlag className='sideBarIcon' style={{ color: 'blue' }} />
+                        <AiFillFlag className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Pages
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdOutlineEmojiEvents className='sideBarIcon' style={{ color: 'blue' }} />
+                        <MdOutlineEmojiEvents className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Events
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <BsBag className='sideBarIcon' style={{ color: 'blue' }} />
+                        <BsBag className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Jobs
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <MdBloodtype className='sideBarIcon' style={{ color: 'blue' }} />
+                        <MdBloodtype className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Blood Donation
                         </span>
                     </li>
                     <li className="sideBarItem">
-                        <FaClinicMedical className='sideBarIcon' style={{ color: 'blue' }} />
+                        <FaClinicMedical className='sideBarIcon' />
                         <span className="sideBarIconText">
                             Covid-19 Center
                         </span>
+                    </li>
+                    <li className="sideBarItem">
+                        <AiOutlineLogout className='sideBarIcon' />
+                        <Link className='reactLink' to={'/login'}><span className="sideBarIconText">
+                            Log Out
+                        </span></Link>
                     </li>
                 </ul>
                 <div className="sideBarButton">Show More</div>

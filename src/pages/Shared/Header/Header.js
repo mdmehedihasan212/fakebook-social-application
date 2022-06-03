@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <div className="headerContainer">
             <div className="headerLeft">
-                <Link className='headerDomLink' to={'/'}><span className="logo">
+                <Link className='reactLink' to={'/'}><span className="logo">
                     Fakebook
                 </span></Link>
             </div>
@@ -22,8 +22,8 @@ const Header = () => {
             </div>
             <div className="headerRight">
                 <div className="headerLinks">
-                    <Link className='headerDomLink' to={'/'}><span className="headerLink">Homepage</span></Link>
-                    <Link className='headerDomLink' to={'/profile'}><span className="headerLink">Timeline</span></Link>
+                    <Link className='reactLink' to={'/'}><span className="headerLink">Homepage</span></Link>
+                    <Link className='reactLink' to={'/profile'}><span className="headerLink">Timeline</span></Link>
                 </div>
                 <div className="headerIcons">
                     <div className="headerIconItem">

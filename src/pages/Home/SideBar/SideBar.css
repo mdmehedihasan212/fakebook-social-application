@@ -42,6 +42,10 @@
     font-size: 20px;
 }
 
+.sideBarIconText {
+    color: black;
+}
+
 .sideBarButton {
     width: 150px;
     text-align: center;

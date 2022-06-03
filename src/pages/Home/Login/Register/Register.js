@@ -1,23 +1,46 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css';
+import auth from '../../../../firebase/firebase.init';
 
 const Register = () => {
+    const navigate = useNavigate()
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useCreateUserWithEmailAndPassword(auth);
+
+    const handleRegister = event => {
+        event.preventDefault();
+        const user = {
+            name: event.target.name.value,
+            email: event.target.email.value,
+            password: event.target.password.value,
+            confirmPassword: event.target.confirmPassword.value
+        }
+        createUserWithEmailAndPassword(user.email, user.password)
+        navigate('/');
+    }
+
     return (
-        <div className='login'>
-            <div className="loginWrapper">
-                <div className="loginRight">
-                    <h4 className="loginLogo">Fakebook</h4>
-                    <span className="loginDesc">Connect with friends and family</span>
+        <div className='register'>
+            <div className="registerWrapper">
+                <div className="registerRight">
+                    <h4 className="registerLogo">Fakebook</h4>
+                    <span className="registerDesc">Connect with friends and family</span>
                 </div>
-                <div className="loginLeft">
-                    <div className="loginBox">
-                        <input placeholder="Name" className="loginInput" />
-                        <input placeholder="Email" className="loginInput" />
-                        <input placeholder="Password" className="loginInput" />
-                        <input placeholder="Confirm Password" className="loginInput" />
-                        <button className="loginButton">Sign Up</button>
-                        <button className="loginRegisterButton">Login an account</button>
-                    </div>
+                <div className="registerLeft">
+                    <form onSubmit={handleRegister} className="registerBox">
+                        <input type='text' name='name' placeholder="Name" className="registerInput" />
+                        <input type='email' name='email' placeholder="Email" className="registerInput" />
+                        <input type='password' name='password' placeholder="Password" className="registerInput" />
+                        <input type='password' name='confirmPassword' placeholder="Confirm Password" className="registerInput" />
+                        <button className="signUpButton">Sign Up</button>
+                        <Link className="userLoginButton" to={'/login'}>Login an account</Link>
+                    </form>
                 </div>
             </div>
         </div>

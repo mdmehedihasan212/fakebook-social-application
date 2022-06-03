@@ -1,7 +1,7 @@
 .login {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(223, 223, 223);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: white;
     border-radius: 5px;
     justify-content: space-between;
 }
@@ -45,7 +45,7 @@
 .loginInput {
     height: 50px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid gray;
     font-size: 18px;
     padding-left: 20px;
 }
@@ -71,8 +71,12 @@
     cursor: pointer;
 }
 
-.loginRegisterButton {
-    width: 60%;
+.newRegisterButton {
+    width: 70%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     align-self: center;
     height: 50px;
     color: white;
