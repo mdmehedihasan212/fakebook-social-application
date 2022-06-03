@@ -22,7 +22,8 @@ const Register = () => {
             confirmPassword: event.target.confirmPassword.value
         }
         createUserWithEmailAndPassword(user.email, user.password)
-        navigate('/');
+        alert('user registration done')
+        navigate('/')
     }
 
     return (
