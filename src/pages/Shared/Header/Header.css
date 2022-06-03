@@ -58,9 +58,14 @@
     color: white;
 }
 
+.headerDomLink {
+    text-decoration: none;
+}
+
 .headerLink {
     margin-right: 10px;
     font-size: 15px;
+    color: white;
     cursor: pointer;
 }
 

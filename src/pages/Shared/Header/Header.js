@@ -4,14 +4,15 @@ import { BsSearch } from 'react-icons/bs';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BsFillChatDotsFill } from 'react-icons/bs';
 import { IoMdNotifications } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className="headerContainer">
             <div className="headerLeft">
-                <span className="logo">
+                <Link className='headerDomLink' to={'/'}><span className="logo">
                     Fakebook
-                </span>
+                </span></Link>
             </div>
             <div className="headerCenter">
                 <div className="searchBar">
@@ -21,8 +22,8 @@ const Header = () => {
             </div>
             <div className="headerRight">
                 <div className="headerLinks">
-                    <span className="headerLink">Homepage</span>
-                    <span className="headerLink">Timeline</span>
+                    <Link className='headerDomLink' to={'/'}><span className="headerLink">Homepage</span></Link>
+                    <Link className='headerDomLink' to={'/profile'}><span className="headerLink">Timeline</span></Link>
                 </div>
                 <div className="headerIcons">
                     <div className="headerIconItem">
@@ -37,8 +38,8 @@ const Header = () => {
                         <IoMdNotifications className="headerIcon" />
                         <span className="headerIconBadge">15</span>
                     </div>
-                </div>
-                <img src="/assets/profile/6.jpg" alt="img" className="headerImage" />
+                </div><Link to={'/profile'}><img src="/assets/profile/6.jpg" alt="img" className="headerImage" /></Link>
+
             </div>
         </div>
     );
